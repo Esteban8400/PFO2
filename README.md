@@ -83,11 +83,8 @@ Qué se hizo: Se ajustaron los colores, contrastes y estilos en el modo oscuro, 
 
 Justificación: Proporciona una experiencia de usuario cómoda y coherente en ambos modos de visualización, evitando problemas de lectura en condiciones de baja iluminación.
 
-Adjunto captura de pantalla del antes y después del rediseño (la imagen se encuentra en el repositorio).
 
 URL de GitHub Pages
-Mi Portafolio Personal
+https://esteban8400.github.io/PFO2/
 
 Nota: Cada funcionalidad y mejora se implementó con el objetivo de enriquecer la experiencia del usuario y facilitar futuras modificaciones en el sitio, haciendo el mantenimiento del código más eficiente y la usabilidad general del portafolio superior.
-
-¡Espero que disfrutes explorando mi portafolio!

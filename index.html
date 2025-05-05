@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Personal</title>
+
+  <!-- Vincula el archivo de estilos CSS externo -->
+  <link rel="stylesheet" href="CSS/styles.css">
+  
+  <!-- Importa la fuente Roboto de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Botón para alternar Modo Oscuro/Claro -->
+  <button id="toggle-mode">Modo Oscuro</button>
+  
+  <header>
+    <h1>Mi Sitio Web</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#tarjetas">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Sección "Sobre mí" -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy un <strong>estudiante rosarino</strong> y futuro desarrollador, apasionado por la <em>tecnología</em> y mi amado <strong>Rosario Central</strong>.</p>
+      <p>Me encanta aprender, resolver problemas y encontrar soluciones innovadoras.</p>
+      <img src="img/FotoPresentacion.avif" alt="Foto de mi presentación">
+    </section>
+
+    <!-- Sección "Habilidades" generada dinámicamente -->
+    <section id="habilidades">
+      <div class="fila">
+        <h2 class="titulo">Habilidades</h2>
+        <ul class="habilidades" id="lista-habilidades">
+          <!-- Se rellenan desde JavaScript -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Botón para ocultar/mostrar la sección de Proyectos -->
+    <button class="toggle-content" id="toggle-proyectos">Ocultar/Mostrar Proyectos</button>
+
+    <!-- Sección "Proyectos" -->
+    <section id="tarjetas">
+  <div class="fila">
+    <h2 class="titulo">Proyectos</h2>
+    <div class="proyectos-contenedor">
+      <!-- Proyecto Tienda Online -->
+      <section id="tienda-online">
+        <h3>Mi Tienda Online</h3>
+        <p>Página web de una tienda virtual en la que los clientes pueden explorar catálogos digitales, comparar precios, ver las descripciones del producto y agregarlo a un carrito de compras. Además, suele incluir opciones de pago seguras y métodos de envío para facilitar la entrega de los productos.</p>
+        <img src="img/tienda-virtual.jpg" alt="Tienda virtual" width="250">
+      </section>
+
+      <!-- Proyecto Club El Torito -->
+      <section id="programa-csharp">
+        <h3>Gestión de Base de Datos - Club El Torito</h3>
+        <p>Programa en C# para gestionar socios, eventos y pagos dentro del club.</p>
+        <ul>
+          <li>Registro de socios con información completa.</li>
+          <li>Gestión de pagos y cuotas.</li>
+          <li>Generación de reportes para eventos.</li>
+        </ul>
+        <img src="img/torito-programa.jpg" alt="Programa en C#" width="250">
+      </section>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Sección "Contacto" -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Sección "Películas favoritas" generada dinámicamente -->
+    <section id="peliculas">
+      <h2>Mis Películas Favoritas</h2>
+      <div class="contenedor-peliculas" id="peliculas-container">
+        <!-- Tarjetas generadas con JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Esteban Dido. Sígueme en 
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <!-- Archivo JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
